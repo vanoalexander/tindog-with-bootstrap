@@ -1,0 +1,190 @@
+.body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 5%;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* Title section */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+.image-position {
+    position: relative;
+}
+
+/* info for bootstrap change : In bootstrap 4, the 'col' classes have 'position: relative;' functions. 
+So naturally, when Angela changed the width of the image to 60%, it was relative to the col div. 
+In bootstrap 5, the col classes don't have position: relative;. 
+So you have to add it manually to the col div by adding a image-position class.
+Otherwise when you assign 60%, it will size it relative to the whole body of the website. */
+
+/* Feature Section */
+#features {
+    padding: 10%;
+    background-color: white;
+    position: relative;
+
+}
+
+.fa-features {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+.fa-features:hover {
+    color: #ff4c68;
+}
+
+.col-lg-4 {
+    padding: 40px;
+}
+
+.feature-text {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-desc {
+    color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner {
+    padding: 10%;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.btn-price {
+    width: 100%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 9% 15%;
+}
+
+.cta-header {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.fa-footer {
+    padding: 2%;
+}
+
+.copyright-text {
+    color: #8f8f8f;
+}
+
+/* Responsive Change (Mobile-tab ver) */
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
